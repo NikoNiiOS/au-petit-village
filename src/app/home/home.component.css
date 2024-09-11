@@ -1,69 +1,69 @@
 h1 {
-    font-family: "Bubbleboddy";
-    color: var(--tertiary-color);
+  font-family: "Bubbleboddy";
+  color: var(--tertiary-color);
 }
-  
+
 section.sect-about {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 1.3rem;
-    margin: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin: 5%;
 }
-  
+
 .sect-listProduct {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--primary-color);
-    gap: 0.5rem;
-    font-family: "Comfortiaa";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--primary-color);
+  gap: 0.5rem;
+  font-family: "Comfortiaa";
 }
 
 .row {
-    margin-right: 5%;
-    margin-left: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-  
+
 .card-body {
-    font-size: 16px;
-    font-family: "Comfortiaa";
+  font-size: 16px;
+  font-family: "Comfortiaa";
 }
-  
+
 .btn-product {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
-  
+
 .btn-product:hover {
-    background-color: var(--quaternary-color);
-    color: white;
+  background-color: var(--quaternary-color);
+  color: white;
 }
-  
+
 .form-select {
-    background-color: var(--primary-color);
-    margin-top: 10px;
-    border-color: white;
+  background-color: var(--primary-color);
+  margin-top: 10px;
+  border-color: white;
 }
-  
+
 .form-control {
-    background-color: var(--primary-color);
-    margin-top: 10px;
-    border-color: white;
-    margin-left: 5px;
-    margin-right: 5px;
+  background-color: var(--primary-color);
+  margin-top: 10px;
+  border-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-  
+
 .card-img-top {
-    height: 300px;
-    width: 300px;
+  height: 300px;
+  width: 300px;
 }
