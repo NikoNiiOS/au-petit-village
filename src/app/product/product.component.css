@@ -1,0 +1,31 @@
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+}
+
+.btn:hover {
+  background-color: var(--quaternary-color);
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 60vh;
+  margin: 5%;
+  color: var(--tertiary-color);
+  justify-content: space-around;
+  font-family: "Comfortiaa";
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}

@@ -11,6 +11,7 @@ export interface Product {
 @Injectable({
   providedIn: "root",
 })
+
 export class ProductsService {
   products: Product[] = [
     {
@@ -18,21 +19,21 @@ export class ProductsService {
       name: "Figurine Astérix",
       desc: "Figurine en plastique d'Astérix, le personnage principal de la série. Le représente souvent dans sa pose emblématique, avec son casque ailé et sa ceinture.",
       price: 5,
-      picture: "./assets/img/figurine-asterix.jpg",
+      picture: "./assets/img/figurine-asterix-et-un-livre-la-galerie-des-personnages.jpg",
     },
     {
       id: 2,
       name: "Figurine Obélix",
-      desc: "Figurine en plastique d'Obélix, le meilleur ami d'Astérix. Souvent représenté tenant un menhir ou un sanglier.",
+      desc: "Figurine en plastique d'Obélix, le meilleur ami d'Astérix. Souvent représenté tenant un menhir ou un sanglier. Ici il porte un tas d'album.",
       price: 12.5,
-      picture: "./assets/img/figurine-obelix.JPG",
+      picture: "./assets/img/figurine-obelix-pile-d-albums.jpg",
     },
     {
       id: 3,
       name: "Set de figurines\nAstérix et Obélix",
-      desc: "Contient des figurines d'Astérix et Obélix, ainsi que d'autres personnages de la série comme Idéfix, Abraracourcix ou Falbala.",
+      desc: "Contient des figurines d'Astérix et Obélix, ainsi que d'autres personnages de la série.",
       price: 8,
-      picture: "./assets/img/set-figurine.jpg",
+      picture: "./assets/img/figurine-asterix-obelix-panoramix-partie-d-echecs.jpg",
     },
   ];
 

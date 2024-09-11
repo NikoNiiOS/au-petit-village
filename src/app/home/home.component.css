@@ -1,6 +1,10 @@
+main {
+  height: 100vh;
+}
+
 h1 {
   font-family: "Bubbleboddy";
-  color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 
 section.sect-about {
@@ -16,7 +20,6 @@ section.sect-about {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--primary-color);
   gap: 0.5rem;
   font-family: "Comfortiaa";
 }
