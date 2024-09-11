@@ -1,22 +1,22 @@
 .navColor {
-    font-family: "Comfortiaa";
-    font-size: 1.2rem;
-    background-color: var(--primary-color);
+  font-family: "Comfortiaa";
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
 }
 
-.container-fluid{
-    margin-left: 7%;
-    margin-right: 7%;
+.container-fluid {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .nav-link {
-    color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
-  
+
 .nav-link:focus {
-    color: var(--quaternary-color);
+  color: var(--quaternary-color);
 }
 
 .logo {
-    border-radius: 25%;
+  border-radius: 25%;
 }
