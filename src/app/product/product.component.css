@@ -16,8 +16,8 @@ section {
   display: flex;
   flex-direction: row;
   text-align: center;
-  height: 60vh;
-  margin: 5%;
+  margin-top: 10%;
+  margin-bottom: 20%;
   color: var(--tertiary-color);
   justify-content: space-around;
   font-family: "Comfortiaa";
@@ -25,6 +25,7 @@ section {
 
 .row {
   display: flex;
+  height: 60vh;
   align-items: center;
   border-radius: 10px;
   background-color: white;
